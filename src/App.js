@@ -10,11 +10,12 @@ import {
   theme,
 } from '@chakra-ui/react';
 import { ColorModeSwitcher } from './config/ColorModeSwitcher';
-import { Logo } from './Logo';
+import Fonts from './styles/Fonts';
 
 function App() {
   return (
     <ChakraProvider theme={theme}>
+      <Fonts />
       <Box textAlign="center" fontSize="xl">
         <Grid minH="100vh" p={3}>
           <ColorModeSwitcher justifySelf="flex-end" />
