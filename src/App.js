@@ -9,16 +9,16 @@ import {
   Grid,
   theme,
 } from '@chakra-ui/react';
-import { ColorModeSwitcher } from './config/ColorModeSwitcher';
 import Fonts from './styles/Fonts';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <ChakraProvider theme={theme}>
       <Fonts />
+      <Navbar />
       <Box textAlign="center" fontSize="xl">
         <Grid minH="100vh" p={3}>
-          <ColorModeSwitcher justifySelf="flex-end" />
           <VStack spacing={8}>
             <Text>
               Edit <Code fontSize="xl">src/App.js</Code> and save to reload.
