@@ -48,16 +48,16 @@ const customColors = {
     900: '#0B2818',
   },
   teal: {
-    50: '#EAFBFB',
-    100: '#C3F4F3',
-    200: '#9CECEB',
-    300: '#76E5E3',
-    400: '#4FDEDB',
-    500: '#29D6D3',
-    600: '#20ACA9',
-    700: '#18817F',
-    800: '#105654',
-    900: '#082B2A',
+    50: '#daffff',
+    100: '#affdfd',
+    200: '#82f9f9',
+    300: '#55f7f7',
+    400: '#2ef5f5',
+    500: '#1cdbdb',
+    600: '#08aaaa',
+    700: '#007a7a',
+    800: '#004a4a',
+    900: '#001a1a',
   },
   cyan: {
     50: '#E5FBFF',
@@ -148,19 +148,6 @@ const secondary = {
   900: '#000f1e',
 };
 
-const accent = {
-  50: '#daffff',
-  100: '#affdfd',
-  200: '#82f9f9',
-  300: '#55f7f7',
-  400: '#2ef5f5',
-  500: '#1cdbdb',
-  600: '#08aaaa',
-  700: '#007a7a',
-  800: '#004a4a',
-  900: '#001a1a',
-};
-
 const error = {
   50: '#ffe4e4',
   100: '#fdb7b7',
@@ -190,7 +177,6 @@ const colors = {
   brand,
   primary,
   secondary,
-  accent,
   error,
   darkgray,
   ...customColors,
