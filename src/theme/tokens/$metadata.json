@@ -1,7 +1,6 @@
 {
   "tokenSetOrder": [
-    "TheFaceStar",
-    "TheFaceStar base",
-    "TheFaceStar dark"
+    "TheFaceStar/TheFaceStar base",
+    "TheFaceStar/TheFaceStar dark"
   ]
 }

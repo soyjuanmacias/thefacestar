@@ -2,10 +2,7 @@
   {
     "id": "c330962e94615ac6802bbefefe781a2aad26bbba",
     "name": "TheFaceStar",
-    "selectedTokenSets": {
-      "TheFaceStar base": "enabled",
-      "TheFaceStar": "source"
-    },
+    "selectedTokenSets": {},
     "$figmaStyleReferences": {
       "black": "S:aa58f3b0badf125c2bd0084f069f0e52f9c4fd78,",
       "white": "S:aa58f3b0badf125c2bd0084f069f0e52f9c4fd78,",
@@ -510,11 +507,7 @@
   {
     "id": "1991ee124a26a96c1496b45c4aa2d5776fdbb067",
     "name": "TheFaceStar Dark",
-    "selectedTokenSets": {
-      "TheFaceStar": "source",
-      "TheFaceStar base": "enabled",
-      "TheFaceStar dark": "enabled"
-    },
+    "selectedTokenSets": {},
     "$figmaStyleReferences": {
       "black": "S:aa58f3b0badf125c2bd0084f069f0e52f9c4fd78,",
       "white": "S:aa58f3b0badf125c2bd0084f069f0e52f9c4fd78,",
