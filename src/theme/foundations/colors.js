@@ -110,7 +110,7 @@ const customColors = {
 };
 
 const brand = {
-  50: '#ffe3sssfc',
+  50: '#ffe3fc',
   100: '#ffb3e8',
   200: '#fc83d6',
   300: '#f952c5',
