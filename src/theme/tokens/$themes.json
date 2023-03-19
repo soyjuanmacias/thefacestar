@@ -1,10 +1,10 @@
 [
   {
     "id": "c330962e94615ac6802bbefefe781a2aad26bbba",
-    "name": "TheFaceStar Core",
+    "name": "TheFaceStar",
     "selectedTokenSets": {
-      "light thefacestar": "enabled",
-      "dark thefacestar": "enabled",
+      "TheFaceStar base": "enabled",
+      "TheFaceStar dark": "enabled",
       "TheFaceStar": "source"
     },
     "$figmaStyleReferences": {
