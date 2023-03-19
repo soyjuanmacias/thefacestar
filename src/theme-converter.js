@@ -1,22 +1,43 @@
-const { extendTheme } = require('@chakra-ui/react');
+// const { extendTheme } = require('@chakra-ui/react');
 const tokens = require('./tokens.json');
 
 const keys = Object.keys(tokens).map((key) => Object.keys(tokens[key]));
 console.log(keys.flat(1));
 
-// const customTheme = extendTheme({
-//   colors: {
-//     brand: tokens.colors.brand,
-//     accent: tokens.colors.accent,
-//   },
-//   fonts: {
-//     body: tokens.fonts.body,
-//     heading: tokens.fonts.heading,
-//   },
-//   fontSizes: {
-//     xs: tokens.fontSizes.xs,
-//     sm: tokens.fontSizes.sm,
-//   },
-// });
+const getChakraSemanticTokens = (figmaTokens) => {
+  const semanticTokens = {
+    radii: {},
+    colors: {},
+    shadows: {},
+    fonts: {},
+    fontWeights: {},
+    space: {},
+    lineHeights: {},
+    sizes: {},
+    borders: {},
+    fontSizes: {},
+  };
 
-// console.log(customTheme);
+  for (const[key, value] in Object.entries(figmaTokens)) {
+    console.out(key, value);
+//     for (const property in figmaTokens[category]) {
+//       if (category === 'colors') {
+//         for (const token in figmaTokens[category].light) {
+//           semanticTokens[category][token] = {
+//             default: figmaTokens[category].light[token],
+//             _dark: figmaTokens[category].dark[token],
+//           };
+//         }
+//       } else {
+//         const tokens = figmaTokens[category].light || figmaTokens[category];
+
+//         for (const token in tokens) {
+//           semanticTokens[category][token] = tokens[token];
+//         }
+//       }
+//     }
+//   }
+//   return semanticTokens;
+};
+
+getChakraSemanticTokens(tokens);
